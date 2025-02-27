@@ -1,7 +1,7 @@
 # ReachingField
 
 This repository is the official implementation of ReachingField model from 
-our 3DV 2025 paper 3D Whole-body Grasp Synthesis with Directional Controllability
+our __3DV 2025__ paper:**3D Whole-body Grasp Synthesis with Directional Controllability**
 (https://gpaschalidis.github.io/cwgrasp/).
 
 <a href="">
@@ -41,10 +41,10 @@ pip install -r requirements.txt
 To try ReachingField you can use any data you want. However, for our paper we use 
 the grasping objects from GRAB dataset and the ReplicaGrasp dataset.
 
--Download first the GRAB object mesh (`.ply`) files from the [GRAB website](https://grab.is.tue.mpg.de/).
--Download the ReplicaGrasp dataset from [here](https://github.com/purvaten/FLEX)
--Create a data folder and paste inside the above datasets, so that they have the following 
-structure
+- Download first the GRAB object mesh (`.ply`) files from the [GRAB website](https://grab.is.tue.mpg.de/).
+- Download the ReplicaGrasp dataset from [FLEX github page](https://github.com/purvaten/FLEX)
+- Create a data folder and paste inside the above datasets, so that they have the following 
+structure:
 
 ```bash
     reachingfield
@@ -64,14 +64,14 @@ structure
  
 
 ## Testing ReachingField
-To try ReachingField and obtain similar visualizations with above use the following command:
+To try ReachingField and obtain visualizations for all of its building steps use the following command:
 
 ```bash
 python test_reachingfield.py cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabinet_01_all_1 --grasp_type "right" --vis
 
 ```
-
-All the configurations in replicagrasp dataset are describing as keys to the dictionary inside dset_info.npz.
+Instead of cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabinet_01_all_1 you can use any key of the dictionary 
+inside the dset_info.npz file.
 
 
 ## Citation
