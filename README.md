@@ -2,6 +2,7 @@
 
 This repository is the official implementation of ReachingField model from 
 our __3DV 2025__ paper:
+
 **3D Whole-body Grasp Synthesis with Directional Controllability**
 (https://gpaschalidis.github.io/cwgrasp/).
 
