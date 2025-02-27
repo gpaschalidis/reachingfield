@@ -1,6 +1,6 @@
 # ReachingField
 
-This repository is the official implementation of ReachingField model from 
+This repository is the official implementation of the ReachingField model from 
 our __3DV 2025__ paper:
 
 **3D Whole-body Grasp Synthesis with Directional Controllability**
@@ -10,12 +10,14 @@ our __3DV 2025__ paper:
 <img src="img/ray_distribution_visualization.jpg" alt="Logo" width="100%">
 </a>
 
+<p align="justify">
 ReachingField is a probabilistic 3D vector field conditioned on a 3D object. 
 Specifically, it defines a distribution over the directions
 from which a body's arm and hand can reach an object, without penetrating 
 obstacles around the object. Below, we provide visualizations illustrating how
 ReachingField is formed for objects placed at various heights, ranging from low to high, 
 on different receptacle objects.
+</p>
 
 <p align="center">
     <img width="360" alt="" src="img/reachingfield1.gif"/>
@@ -75,8 +77,13 @@ To try ReachingField and generate visualizations for each of its building steps,
 python test_reachingfield.py cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabinet_01_all_1 --grasp_type "right" --vis
 
 ```
-Instead of cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabinet_01_all_1 you can use any key of the dictionary 
-inside the dset_info.npz file.
+
+<p align="justify">
+Inside the file <strong>dset_info.npz</strong> you will find a dictionary containing all the configurations of the
+ReplicaGrasp dataset. Each dictionary key represents a distinct confiuration. You can experiment with configuration 
+by replacing  <strong>"cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabinet_01_all_1"</strong> in the command
+above with the correspodning key.
+</p>
 
 
 ## Citation
