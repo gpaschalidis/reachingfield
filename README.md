@@ -81,7 +81,7 @@ python test_reachingfield.py cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabi
 <p align="justify" style="word-wrap: break-word;">
 Inside the file <strong>dset_info.npz</strong> you will find a dictionary containing all the configurations of the
 ReplicaGrasp dataset. Each dictionary key represents a distinct confiuration. You can experiment with any configuration
-by replacing  <strong>"cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabinet_01_all_1"</strong> in the command
+by replacing  <code>cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabinet_01_all_1"</code> in the command
 above with the corresponding key.
 </p>
 
