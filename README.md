@@ -5,7 +5,7 @@ our 3DV 2025 paper 3D Whole-body Grasp Synthesis with Directional Controllabilit
 (https://gpaschalidis.github.io/cwgrasp/).
 
 <a href="">
-<img src="img/ray_distribution_visualization.png" alt="Logo" width="100%">
+<img src="img/ray_distribution_visualization.jpg" alt="Logo" width="100%">
 </a>
 
 <p align="center">
