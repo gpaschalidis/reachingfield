@@ -49,7 +49,7 @@ To try ReachingField you can use any data you want. However, for our paper we us
 the grasping objects from GRAB dataset and the ReplicaGrasp dataset.
 
 - Download first the GRAB object mesh (`.ply`) files from the [GRAB website](https://grab.is.tue.mpg.de/).
-- Download the ReplicaGrasp dataset from [FLEX github page](https://github.com/purvaten/FLEX)
+- Download the ReplicaGrasp dataset from [FLEX github page](https://github.com/purvaten/FLEX).
 - Create a data folder and paste inside the above datasets, so that they have the following 
 structure:
 
@@ -78,7 +78,7 @@ python test_reachingfield.py cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabi
 
 ```
 
-<p align="justify">
+<p align="justify" style="word-wrap: break-word;">
 Inside the file <strong>dset_info.npz</strong> you will find a dictionary containing all the configurations of the
 ReplicaGrasp dataset. Each dictionary key represents a distinct confiuration. You can experiment with any configuration
 by replacing  <strong>"cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabinet_01_all_1"</strong> in the command
