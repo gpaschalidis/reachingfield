@@ -5,14 +5,14 @@ our 3DV 2025 paper 3D Whole-body Grasp Synthesis with Directional Controllabilit
 (https://gpaschalidis.github.io/cwgrasp/).
 
 <a href="">
-<img src="./img/ray_distribution_visualization.png" alt="" width="100%">
+<img src="img/ray_distribution_visualization.png" alt="" width="100%">
 </a>
 
 <p>
-    <img width="240" alt="" src="img/reachingfield1.gif"/>
-    <img width="240" alt="" src="img/reachingfield2.gif"/>
-    <img width="240" alt="" src="img/reachingfield3.gif"/>
-    <img width="240" alt="" src="img/reachingfield4.gif"/>
+    <img width="360" alt="" src="img/reachingfield1.gif"/>
+    <img width="360" alt="" src="img/reachingfield2.gif"/>
+    <img width="360" alt="" src="img/reachingfield3.gif"/>
+    <img width="360" alt="" src="img/reachingfield4.gif"/>
 </p>
 
 ReachingField is a probabilistic 3D vector field conditioned to a 3D object. 
