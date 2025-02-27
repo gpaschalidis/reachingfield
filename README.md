@@ -1,12 +1,20 @@
 # ReachingField
 
 This repository is the official implementation of ReachingField model from 
-our __3DV 2025__ paper:**3D Whole-body Grasp Synthesis with Directional Controllability**
+our __3DV 2025__ paper:
+**3D Whole-body Grasp Synthesis with Directional Controllability**
 (https://gpaschalidis.github.io/cwgrasp/).
 
 <a href="">
 <img src="img/ray_distribution_visualization.jpg" alt="Logo" width="100%">
 </a>
+
+ReachingField is a probabilistic 3D vector field conditioned on a 3D object. 
+Specifically, it defines a distribution over the directions
+from which a body's arm and hand can reach an object, without penetrating 
+obstacles around the object. Below, we provide visualizations illustrating how
+ReachingField is formed for objects placed at various heights, ranging from low to high, 
+on different receptacle objects.
 
 <p align="center">
     <img width="360" alt="" src="img/reachingfield1.gif"/>
@@ -15,10 +23,6 @@ our __3DV 2025__ paper:**3D Whole-body Grasp Synthesis with Directional Controll
     <img width="360" alt="" src="img/reachingfield4.gif"/>
 </p>
 
-ReachingField is a probabilistic 3D vector field conditioned to a 3D object. 
-Specifically, with ReachingField we build a distribution over the directions
-from which a body's arm and hand can reach an object, without penetrating 
-obstacles around the object.
 
 
 ## Installation & Dependencies
@@ -64,7 +68,7 @@ structure:
  
 
 ## Testing ReachingField
-To try ReachingField and obtain visualizations for all of its building steps use the following command:
+To try ReachingField and generate visualizations for each of its building steps, use the following command:
 
 ```bash
 python test_reachingfield.py cup_receptacle_aabb_WC1_Top3frl_apartment_wall_cabinet_01_all_1 --grasp_type "right" --vis
