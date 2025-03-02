@@ -90,7 +90,7 @@ above with the corresponding key.
 If you found this work influential or helpful for your research, please cite:
 ```
 @inproceedings{paschalidis2025cwgrasp,
-  title     = {{3D} {W}hole-body Grasp Synthesis with Directional Controllability},
+  title     = {{3D} {W}hole-Body Grasp Synthesis with Directional Controllability},
   author    = {Paschalidis, Georgios and Wilschut, Romana and Anti\'{c}, Dimitrije and Taheri, Omid and Tzionas, Dimitrios},
   booktitle = {{International Conference on 3D Vision (3DV)}},
   year      = {2025}
