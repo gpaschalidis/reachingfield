@@ -8,7 +8,7 @@ def setup_package():
         author="Georgios Paschalidis", 
         description="ReachingField model",
         url="https://github.com/gpaschalidis/reachingfield",
-        packages=find_packages(exclude=["docs", "scripts"]),  
+        packages=find_packages(),  
         install_requires=[], 
         classifiers=[
             "Intended Audience :: Science/Research",
