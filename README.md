@@ -40,7 +40,6 @@ Run the following commands:
 conda create -n reachingfield python=3.9 -y
 conda activate reachingfield
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
-pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
 pip install -r requirements.txt
  ```
 
