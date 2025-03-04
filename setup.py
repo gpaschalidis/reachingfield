@@ -7,6 +7,7 @@ def setup_package():
         version="0.1.0", 
         author="Georgios Paschalidis", 
         description="ReachingField model",
+        long_description=open("README.md").read(),
         url="https://github.com/gpaschalidis/reachingfield",
         packages=find_packages(),  
         install_requires=[], 
